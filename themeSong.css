@@ -18,7 +18,14 @@ body{
     display: grid;
     place-content: center;
 }
-
+img{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+video{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
 ul {
     list-style-type: none;
     margin: 0;
