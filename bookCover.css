@@ -17,7 +17,10 @@ img{
     border: 2px solid black;
     border-radius: 0.5rem;
 }
-
+video{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
 body{
     background: linear-gradient(90deg, var(--clr-2), var(--clr-6));
     display: grid;
