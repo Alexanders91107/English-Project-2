@@ -75,10 +75,17 @@ ul {
 
   @media(max-width: 768px){
     .hamburger{
+        position: fixed;
+        width: 97.5%;
+        z-index: 100;
         display: block;
         overflow: visible;
         height: fit-content;
         justify-content: center;
+        border: 1px solid var(--clr-4);
+    };
+    .hamburger.active{
+        position: fixed;
     };
     .hamburger.active .bar2{
         transform: translateY(0px) rotate(45deg);
@@ -99,19 +106,20 @@ ul {
         border-radius: 0.5rem;
         gap: 0;
         flex-direction: column;
-        width: 100%;
         text-align: center;
         transition: 0.3s;
         margin-top: 12vw;
-        margin-left: 0.75vw;
         z-index: 100;
         width: 95%;
+        margin-left: 1.125%;
         background: linear-gradient(90deg, var(--clr-6), var(--clr-3));
+        border: 1px solid var(--clr-4);
     }
     .nav-item{
-        width: 100%;
+        width: 98%;
         background: linear-gradient(90deg, var(--clr-6), var(--clr-3));
         padding-top: 2%;
+        padding-left: 1%;
         padding-bottom: 2%;
         margin: 1% 0;
         z-index: 100;
@@ -119,6 +127,10 @@ ul {
 
     .nav-menu.active{
         top: 0;
+    }
+    
+    .main{
+        margin-top: 12vw;
     }
   }
   
