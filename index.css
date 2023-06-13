@@ -189,7 +189,7 @@ a{
 .card::after{
     content: "";
     position: absolute;
-    inset: -.4cqi;
+    inset: -.2cqi;
     z-index: -1;
     background: conic-gradient(
         from var(--gradient-angle),
