@@ -19,6 +19,10 @@ body{
     place-content: center;
 }
 
+img, video{
+    border: 2px solid var(--clr-6);
+    border-radius: 0.5rem;
+}
 ul {
     list-style-type: none;
     margin: 0;
